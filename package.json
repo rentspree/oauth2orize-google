@@ -1,0 +1,30 @@
+{
+  "name": "oauth2orize-google",
+  "version": "1.0.0",
+  "description": "Google code exchange middleware for OAuth2 server toolkit `oauth2orize`.",
+  "keywords": [
+    "oauth2orize",
+    "google"
+  ],
+  "license": "MIT",
+  "author": "Trung Nguyen <i@meo.guru> (http://meo.guru)",
+  "files": [
+    "lib/**/*"
+  ],
+  "main": "lib/index.js",
+  "repository": "rentspree/oauth2orize-google",
+  "scripts": {
+    "test": "eslint lib/"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "object-assign": "^2.0.0",
+    "request": "^2.53.0"
+  },
+  "peerDependencies": {
+    "oauth2orize": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.17.1"
+  }
+}
