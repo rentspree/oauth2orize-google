@@ -17,7 +17,7 @@ Then, you can have fun
 
 ```js
 var oauth2orize = require('oauth2orize');
-var oauth2orizeFacebook = require('oauth2orize-google');
+var oauth2orizeGoogle = require('oauth2orize-google');
 
 var server = oauth2orize.createServer();
 
@@ -29,7 +29,7 @@ var option = {
     redirect_uri: 'xxx'
   }
 }
-server.exchange(oauth2orizeFacebook(option, function (client, profile, scope, cb) {
+server.exchange(oauth2orizeGoogle(option, function (client, profile, scope, cb) {
   // Get access token from client and Facebook profile information.
   var accessToken = 'access token';
 
