@@ -26,7 +26,7 @@ var option = {
     grant_type: 'xxx',
     client_id: 'xxx',
     client_secret: 'xxx',
-    redirect_uri: 'xxx'
+    redirect_uri: 'xxx'  // Unnecessary, default is request origin
   }
 }
 server.exchange(oauth2orizeGoogle(option, function (client, profile, scope, cb) {
