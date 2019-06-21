@@ -1,0 +1,11 @@
+language: node_js
+cache:
+  yarn: true
+script: 
+deploy:
+  provider: npm
+  email: junrai82@gmail.com
+  on:
+    tags: true
+  api_key:
+    secure: SLiSP09nMMfr/YiHAqGis9LYBRruNpR9FqV/bF+CeiONOYZP9ldkAEyZrr3uSszNCn9jtxhaOwxx9yEGVh3lOyaaGsCg+dKj54uLh8ea+uslg3hUcF6xmtjGn08vsVIkncnEySUc+6yrC/nflfCCKcSUD/ikAUVfoyAuTrOrjMQYV8LY1Wz+x7vzTHoxuz7LgFcsh0PmCJHPH91mayImtCe9gPi9QWcONswznxiGBRCYxdphZJlXIg6HUujq2xqPHZMWFabq3ZM7XvhT3bnfqVxBtRSbhlLDnaUKiFamlfJwanOC875YuMl/hjZeaT4GAqtLaVrjL23lWAeK9wV0YJGV8tjuP2lHppJm/EzYUGczabsfMzis7LnQ51596Pn5QnTBvVnxuyXxmE/uxlzkV8qQgkJx1WCkL0vhhXaFLl/l0junYwF0AMc/N+2V5b1mpzruzfOhVwVi8Jb42hQM2nPkGgw1Tx8iPeUIB+M073qeQakP733GKEQt2URrUrDwvX6ttA4Sxl/lv1gN1/gYNQkgBiUb6m6fDmVCeeTg5pZTUBZmfA8vv+k57jbrSRgXaaCQpN8VQUWaQ8cRHeDzjpBD1mZ/8B8fYo11B9zQytcwMahJVx6t/1UsY4gPNYBR7/EBj2owxYh+Yth24sBwAlEdAIs+dMH54yi+TewT4Pc=

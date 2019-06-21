@@ -1,11 +1,12 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "es6": true
   },
   "rules": {
     "dot-notation": [ 2, { "allowPattern": "^[a-z]+(_[a-z\\d]+)+$" }],
     "no-shadow": 0,
-    "quotes": "single",
-    "strict": "global"
+    "quotes": [2, "single"],
+    "strict": [2, "global"]
   }
 }

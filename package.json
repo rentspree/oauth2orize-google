@@ -1,6 +1,6 @@
 {
   "name": "oauth2orize-google",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Google code exchange middleware for OAuth2 server toolkit `oauth2orize`.",
   "keywords": [
     "oauth2orize",
@@ -17,7 +17,7 @@
     "test": "eslint lib/"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "0.19.0",
     "dotenv": "^4.0.0",
     "object-assign": "^2.0.0",
     "request": "^2.53.0"
@@ -26,6 +26,6 @@
     "oauth2orize": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^0.17.1"
+    "eslint": "5.16.0"
   }
 }
